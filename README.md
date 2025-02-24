@@ -40,32 +40,32 @@ Do the exercises listed below. Each exercise must be done in a different .sh fil
 </details>
 
 <details>
- <summary> <h2>8. Rename Multiple Files </h2></summary>
+ <summary> <h2>8. Rename Multiple Files ✅</h2></summary>
     Write a script that renames all .txt files in a directory by adding a _backup suffix before the file extension (e.g., file.txt → file_backup.txt).
 </details>
 
 <details>
- <summary> <h2>9. Copy and Move Files</h2></summary>
+ <summary> <h2>9. Copy and Move Files ✅</h2></summary>
     Write a script that moves all .log files from one directory to another. The source and destination directories should be provided as arguments.
 </details>
 
 <details>
- <summary> <h2>10. Check Disk Usage</h2></summary>
+ <summary> <h2>10. Check Disk Usage ✅</h2></summary>
     Write a script that displays the current disk usage percentage and warns the user if it exceeds 80%.
 </details>
 
 <details>
- <summary> <h2>11. Change File Permissions</h2></summary>
+ <summary> <h2>11. Change File Permissions ✅</h2></summary>
     Write a script that sets read, write, and execute permissions for the owner of all .sh files in a directory.
 </details>
 
 <details>
- <summary> <h2>12. Find Large Files</h2></summary>
+ <summary> <h2>12. Find Large Files ✅</h2></summary>
     Write a script that finds and lists all files in the current directory that are larger than 100MB.
 </details>
 
 <details>
- <summary> <h2>13. Monitor a Log File in Real-Time</h2></summary>
+ <summary> <h2>13. Monitor a Log File in Real-Time ✅</h2></summary>
     Use tail -f in a script to monitor a system log file (/var/log/syslog or /var/log/auth.log).
 </details>
 
