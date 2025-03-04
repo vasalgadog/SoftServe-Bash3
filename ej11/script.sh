@@ -6,8 +6,9 @@ if [[ -z "$path" ]]; then
 fi
 
 for file in "$path"/*.sh; do
+    echo "Cambiando permisos de $file"
     if [[ -e "$file" ]]; then
-        chmod -rwx "$file"
+        chmod +rwx "$file"
         echo "Permisos cambiados"
     fi
 done

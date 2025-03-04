@@ -9,7 +9,7 @@ fi
 if [[ "$option" -eq "auth" ]]; then
     tail -f /var/log/auth.log
     exit 0
-else if [[ "$option" -eq "syslog" ]]; then
+elif [[ "$option" -eq "syslog" ]]; then
     tail -f /var/log/syslog
     exit 0
 else
